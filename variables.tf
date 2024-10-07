@@ -17,7 +17,9 @@ variable "aws-region" {
   description = "AWS region name"
   type        = string
 }
-
+variable "deployment-role" {
+  type        = string
+}
 ##########################################################
 # Variables
 ##########################################################
