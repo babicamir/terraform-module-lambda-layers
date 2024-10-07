@@ -33,4 +33,4 @@ variable "lambda-layer-s3-bucket" {
 }
 
 variable "lambda-layer-s3-key" {
-}
+} 
