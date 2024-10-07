@@ -18,13 +18,9 @@ variable "aws-region" {
   type        = string
 }
 
-
 ##########################################################
 # Variables
 ##########################################################
-variable "name" {
-}
-
 variable "lambda-layer-description" {
 }
 
@@ -36,5 +32,3 @@ variable "lambda-layer-s3-bucket" {
 
 variable "lambda-layer-s3-key" {
 }
-
-
